@@ -67,7 +67,7 @@ int i=2;
 			fprintf(stderr, "pcap_sendpacket return %d error=%s\n", res, pcap_geterr(handle));
 		}
 	
-		printf("IP: %s\n", ip);	
+		printf("IP: %s\n", ip);
 		printf("MAC address : [%s]\n", get_mac_address().c_str());
 	
 		while (true) {
@@ -115,4 +115,3 @@ int i=2;
 	}
     return 0;
 }
-
